@@ -18,3 +18,6 @@ A free All-in-One GUI allows you to manage services and function, and add your o
 <li>Problem-solving framework, allowing for the addition of more complex heuristic search processes.</li>
 <li>Android compatible.</li>
 </ul>
+<br/><br/>
+<h3>Current Release</h3>
+Minor bug fixes - bag-of-words.
