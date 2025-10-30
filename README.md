@@ -20,4 +20,11 @@ A free All-in-One GUI allows you to manage services and function, and add your o
 </ul>
 <br/><br/>
 <h3>Current Release</h3>
-Minor bug fixes - bag-of-words.
+licas, ai_heuristic and licas_ai packages updated
+- LearningData renamed Dataset, with new categories list.
+- LearningData interface requires parameter to indicate if category included or not.
+- Data rows changed to LinkedHashMap.
+- NearestNeighbour re-written to not use a KD Tree. Now called KNearestNeighbour.
+- SOM algorithm updated to use base class of nearest neighbour.
+- Some Result classes moved to ai-heuristic package. You may have to change the reference. Result, ClusterResult, etc.
+- New Parsers for each linking type -  Dyamic, permanent and associated. Use these to get XML descriptions. No LinksParser now.
